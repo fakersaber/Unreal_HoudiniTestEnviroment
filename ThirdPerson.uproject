@@ -2,5 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{C3678FA8-4B97-AD1E-0FE2-359C1A201397}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ThirdPerson",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
